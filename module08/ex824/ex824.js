@@ -14,6 +14,8 @@ function draw() {
     // line((width / 2 - 100), height / 2, (width / 2 - 200), 150);
     // line((width / 2 + 100), height / 2, (width / 2 + 200), 350);
 
+
+    // STAIRCASE ----------------------------------------------
     line(350, 100, 350, 300);
     // right line
     line(450, 100, 450, 300);
