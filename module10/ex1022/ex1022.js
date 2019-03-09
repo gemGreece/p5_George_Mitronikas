@@ -40,7 +40,7 @@
 //           let radius = stepSize;
 
 //           // set as fill color the rgb values of video
-//           fill(myVideo.pixels[i], myVideo.pixels[i + 1], myVideo.pixels[i + 2]);
+//           fill(pixels[i], pixels[i + 1], pixels[i + 2]);
 //           ellipse(x, y, radius, radius);
 //         }
 //     }
@@ -82,7 +82,7 @@ function draw() {
           // make ellipse radius equal with stepSize which will be changing according to mouseX+mouseY position
           let radius = stepSizeX + stepSizeY ;
           // set as fill color the rgb values of video, change alpha according to mouseX
-          fill(myVideo.pixels[i], myVideo.pixels[i + 1], myVideo.pixels[i + 2],stepSizeX);
+          fill(pixels[i], pixels[i + 1], pixels[i + 2],stepSizeX);
           ellipse(x, y, radius, radius);
         }
     }
